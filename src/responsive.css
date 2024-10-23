@@ -1,0 +1,44 @@
+@media screen and (min-width: 992px) {
+	.Avatar2 {
+		display: flex;
+		align-items: center;
+		flex-direction: row-reverse;
+		justify-content: center;
+		gap: 9em;
+	}
+
+	.Avatar {
+		margin: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 26vh;
+	}
+
+	h1 {
+		margin: 90px;
+	}
+	.articles {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		padding: 0;
+	}
+	nav {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+	ul {
+		display: flex;
+		justify-content: flex-end;
+		gap: 40px;
+		margin-right: 1rem;
+	}
+	.logo {
+		width: 4rem;
+	}
+	div.articles {
+		gap: 1em;
+	}
+}
